@@ -1,0 +1,4 @@
+baseurl = "http://linodians.com/"
+languageCode = "en-us"
+title = "Linodians.com"
+theme = "linodians-2016"

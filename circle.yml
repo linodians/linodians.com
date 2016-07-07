@@ -1,0 +1,25 @@
+checkout:
+  post:
+#    - git submodule init
+#    - git submodule update
+
+dependencies:
+  pre:
+    - scripts/install-hugo.sh
+    - git clone git@github.com:linodians/linodians.github.io.git hugo/public
+  cache_directories:
+    - bin
+
+test:
+  pre:
+    - cd hugo/public && git status
+  override:
+    - hugo -v -s hugo
+    - cd hugo/public && git status
+deployment:
+  production:
+    branch: master
+    commands:
+      - git config --global user.name "Ricardo N Feliciano"
+      - git config --global user.email "FelicianoTech@gmail.com"
+      - cd hugo/public && git add . && git commit -m "Testing" && git push
