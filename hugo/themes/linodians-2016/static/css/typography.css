@@ -1,3 +1,4 @@
+html,
 body{
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 16px;
@@ -22,3 +23,12 @@ header a{
 	#main-content h2{
 		margin-bottom: 1rem;
 	}
+
+
+@media screen and (max-width: 600px) {
+
+	html{
+		font-size: 80%;
+	}
+
+}
