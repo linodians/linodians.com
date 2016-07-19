@@ -1,4 +1,63 @@
 baseurl = "http://linodians.com/"
 languageCode = "en-us"
-title = "Linodians.com"
+title = "Linodians"
 theme = "linodians-2016"
+preserveTaxonomyNames = true
+paginate = 3
+disqusShortname = "shortname"
+googleAnalytics = "UA-80757597-1"
+
+
+[params]
+description          = "Linodians, the fan-created community site for the web-hosting company Linode."
+navbarTitle          = "Linodians"
+socialAppearAtTop    = true
+socialAppearAtBottom = true
+viewMorePostLink     = "/blog/"
+
+# Optional Params
+categoriesByCount    = true
+includeReadingTime   = true
+loadFavicon          = true
+
+
+# Adjust the amount of recent posts on the sidebar.
+# This is optional. The default value 5 will be used
+[params.postAmount]
+    sidebar = 2
+
+# Set up your menu items in the navigation bar
+# You can use identifier to prepend a font awesome icon to your text
+[[menu.main]]
+	name		= "Home"
+	url			= "/"
+	identifier	= "fa fa-home"
+	weight		= 1
+[[menu.main]]
+	name		= "Slack Team"
+	url			= "https://slack.linodians.com"
+	identifier	= "fa fa-slack"
+	weight		= 2
+[[menu.main]]
+    name = "Blog"
+    url = "/blog"
+    identifier = "fa fa-newspaper-o"
+    weight		= 3
+[[menu.main]]
+    name = "Contact"
+    url = "/contact"
+	identifier	= "fa fa-envelope"
+    weight		= 4
+
+# Insert your username and the icon will apear on the page as long as
+# socialAppearAtTop or socialAppearAtBottom is set to true in the params area
+# The social media icons will appear on the sidebar
+[social]
+    github          = "linodians"
+    youtube         = ""
+    googleplus      = ""
+    facebook        = ""
+    facebook_admin  = ""
+    twitter_domain  = ""
+    twitter         = "linodians"
+    email           = ""
