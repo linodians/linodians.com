@@ -3,12 +3,17 @@ type: post
 title: "Running Ubuntu Snappy Core on Linode"
 description: "How to test Ubuntu Snappy Core on Linode."
 date: "2016-07-19"
+author: "Ricardo N Feliciano"
 categories:
   - "Experimental Projects"
 tags:
   - "ubuntu"
   - "ubuntu-core"
   - "ubuntu-snappy-snappy"
+featured: "linode-ubuntu-snappy-core.png"
+featuredalt: ""
+featuredpath: "/assets/img/posts/"
+linkarticle: ""
 ---
 
 When I first heard of Ubuntu Snappy Core I was immediately intrigued. Dual file 
