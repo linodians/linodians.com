@@ -48,6 +48,11 @@ loadFavicon          = true
     url = "/contact"
 	identifier	= "fa fa-envelope"
     weight		= 4
+[[menu.main]]
+    name = "@Linodians"
+    url = "https://twitter.com/Linodians"
+	identifier	= "fa fa-twitter"
+    weight		= 5
 
 # Insert your username and the icon will apear on the page as long as
 # socialAppearAtTop or socialAppearAtBottom is set to true in the params area
