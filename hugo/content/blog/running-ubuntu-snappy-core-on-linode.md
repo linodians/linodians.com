@@ -68,10 +68,10 @@ Notes:
   - IPv4 and IPv6 networking should be already working
   - I would change the password and create a new user before doing anything else.
 
-Please comment and let me know if you happen to be doing anything interesting with Snappy Core either on Linode, a Raspberry Pi, or whatever. I’m curious to see what people are actually doing with it and possibly start a project of my own.
-
 Helpful/Interesting related links:
 
   - [Robot spider powered by Ubuntu Snappy Core](http://insights.ubuntu.com/2015/08/05/the-first-app-enabled-spider)
   - [Ubuntu Snappy Core's main developer page](https://developer.ubuntu.com/en/snappy)
   - [Some tutorials](https://developer.ubuntu.com/en/snappy/tutorials/using-snappy)
+
+<span class="source">Originally posted on [Feliciano.Tech](https://feliciano.tech/blog/running-ubuntu-snappy-core-on-linode/).</span>

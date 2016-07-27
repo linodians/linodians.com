@@ -3483,3 +3483,10 @@ footer{
 		width: 80%;
 		font-size: larger;
 	}
+
+span.source{
+	display: block;
+	text-align: center;
+	font-style: italic;
+	font-size: smaller;
+}
