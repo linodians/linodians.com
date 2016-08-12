@@ -6,6 +6,7 @@ preserveTaxonomyNames = true
 paginate = 3
 disqusShortname = "linodians"
 googleAnalytics = "UA-80757597-1"
+MetaDataFormat = "yaml"
 
 
 [params]
