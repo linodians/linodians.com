@@ -1,16 +1,13 @@
 dependencies:
   pre:
     - scripts/install-hugo.sh
-    - git clone git@github.com:linodians/linodians.github.io.git hugo/public
   cache_directories:
-    - bin
+    - ~/bin
 
 test:
-  pre:
-    - cd hugo/public && git status
   override:
     - hugo -v -s hugo
-    - cd hugo/public && git status
+    - ls -lah hugo/public
 deployment:
   production:
     branch: master
