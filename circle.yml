@@ -1,5 +1,6 @@
 dependencies:
-  pre:
+  override:
+    - scripts/pull-linode-api-data.sh
     - scripts/install-hugo.sh
   cache_directories:
     - ~/bin
