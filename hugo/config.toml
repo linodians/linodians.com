@@ -35,25 +35,30 @@ loadFavicon          = true
 	identifier	= "fa fa-home"
 	weight		= 1
 [[menu.main]]
-	name		= "Slack Team"
-	url			= "https://slack.linodians.com"
-	identifier	= "fa fa-slack"
-	weight		= 2
-[[menu.main]]
     name = "Blog"
     url = "/blog"
     identifier = "fa fa-newspaper-o"
-    weight		= 3
+    weight		= 10
+[[menu.main]]
+    name = "Forum"
+    url = "https://discuss.linodians.com"
+    identifier = "fa fa-comments"
+    weight		= 20
+[[menu.main]]
+	name		= "Slack"
+	url			= "https://slack.linodians.com"
+	identifier	= "fa fa-slack"
+	weight		= 30
 [[menu.main]]
     name = "Contact"
     url = "/contact"
 	identifier	= "fa fa-envelope"
-    weight		= 4
+    weight		= 40
 [[menu.main]]
     name = "@Linodians"
     url = "https://twitter.com/Linodians"
 	identifier	= "fa fa-twitter"
-    weight		= 5
+    weight		= 50
 
 # Insert your username and the icon will apear on the page as long as
 # socialAppearAtTop or socialAppearAtBottom is set to true in the params area
