@@ -1,7 +1,7 @@
 ---
 author: Ricardo N Feliciano
 categories:
-- "Miscellaneous"
+- "Announcements"
 date: 2017-06-08
 description: "Linode announces that version 4 of their API is now in beta."
 title: "Linode's Long-Awaited API Rewrite Enters Beta"
