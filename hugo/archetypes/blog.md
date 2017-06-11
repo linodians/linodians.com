@@ -1,9 +1,8 @@
 ---
-type: post
-title: ""
 description: ""
-date: "2016-07-19"
 author: "Ricardo N Feliciano"
+username: FelicianoTech
+type: post
 categories:
   - ""
 tags:
