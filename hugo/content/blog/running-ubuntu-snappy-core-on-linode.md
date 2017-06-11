@@ -1,4 +1,5 @@
 ---
+username: FelicianoTech
 type: post
 title: "Running Ubuntu Snappy Core on Linode"
 description: "How to test Ubuntu Snappy Core on Linode."
