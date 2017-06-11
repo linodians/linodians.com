@@ -180,7 +180,7 @@ blockquote p {
     padding-bottom: 10px !important;
 }
 
-#social-share ul li p {
+#social-share ul li span {
     display: none;
 }
 
@@ -299,7 +299,7 @@ body.is-share-visible #wrapper {
 						font-size: 0.7em;
 					}
 
-					#share-menu .links > li a p {
+					#share-menu .links > li a span {
 						font-family: "Raleway", Helvetica, sans-serif;
 						font-size: 0.6em;
 						font-weight: 400;
