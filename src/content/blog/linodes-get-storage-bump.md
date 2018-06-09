@@ -5,7 +5,7 @@ description: "Linode increased the amount of SSD storage available across all of
 author: "Ricardo N Feliciano"
 username: FelicianoTech
 type: post
-featured: "my-image.png"
+featured: "new-standard-plan-storage.png"
 featuredalt: ""
 featuredpath: "/assets/img/posts/"
 linkarticle: ""
